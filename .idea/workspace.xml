@@ -1,7 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4576e823-78a2-4afe-bab7-726ef738de3b" name="Default Changelist" comment="" />
+    <list default="true" id="4576e823-78a2-4afe-bab7-726ef738de3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/eclipselink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/eclipselink__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/eclipselink.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence_2.1.0.v201304241213.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.23-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sn/senforage/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sn/senforage/entities/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sn/senforage/entities/Village.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/eclipselink.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.persistence_2.1.0.v201304241213.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.23-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/client/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/atlantis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/atlantis.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/atlantis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/fonts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/flaticon/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/fontawesome/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/simple-line-icons/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/simple-line-icons/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/simple-line-icons/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/summernote/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/summernote/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fonts/summernote/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/aegisi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/arashmil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/bg-404.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/bg-abstract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/bg-abstract2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/blogpost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/chadengle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example1-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example10-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example11-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example12-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example2-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example3-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example4-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example5-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example6-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example7-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example8-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example9-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/example9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/logoinvoice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/examples/product8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/am.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/an.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/aw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/az.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/bz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/catalonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/co.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/cz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/dj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/dk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/dz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/et.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/europeanunion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/hk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/hm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/hn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/il.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/iq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/jm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/jo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/lv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/np.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/nz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/om.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/pw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/rs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/rw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/th.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/uy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/uz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/va.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/vc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/vg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/vu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/wf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/za.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/zm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/flags/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/img-shadow.gvdesign" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/img-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/jm_denis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logoalternatif.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logoproduct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logoproduct2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/logoproduct3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/mlane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/productimg/product9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/profile2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/sauro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/talha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/img/visa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/atlantis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/atlantis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/atlantis2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/core/jquery.3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/bootstrap-notify/bootstrap-notify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/chart-circle/circles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/chart.js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/datatables/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jquery.sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.africa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.asia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.australia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.north-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/continents/jquery.vmap.south-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.algeria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.argentina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.canada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.croatia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.greece.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.indonesia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.iran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.iraq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.new_regions_france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.serbia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.tunisia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.turkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.ukraine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.usa.counties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.usa.districts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/plugin/webfont/webfont.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/setting-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/js/setting-demo2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_layouts-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_opacity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_outlinefocus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_responsive-horizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_activityfeed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_colorinputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_gutters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_imagecheck.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_listgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_navsearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_navtabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_paginations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_selectgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_stamps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/components/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/plugins/_animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/plugins/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/plugins/_jqueryscrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/plugins/_jqueryui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/sass/atlantis/plugins/_sweetalert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/utilisateur/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/village/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Senforage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Senforage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +491,164 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="jsp" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="JSP" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="304" />
+          <entry key="jsp" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="304" />
+          <entry key="JSP" value="6" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/utilisateur/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Utilisateur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Village.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#424#432#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/header.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/utilisateur/add.jsp" />
+        <option value="$PROJECT_DIR$/src/sn/senforage/entities/Client.java" />
+        <option value="$PROJECT_DIR$/src/sn/senforage/entities/Village.java" />
+        <option value="$PROJECT_DIR$/src/sn/senforage/entities/Utilisateur.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -30,6 +661,9 @@
     <option name="y" value="2" />
     <option name="width" value="1378" />
     <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -47,7 +681,43 @@
             <path>
               <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
               <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="senforage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Senforage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Senforage" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -61,10 +731,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602607166260" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amrane\Documents\SimplonAUFP3\JAVAEE\Senforage\web" />
+      <recent name="C:\Users\amrane\Documents\SimplonAUFP3\JAVAEE\Senforage" />
+      <recent name="C:\Users\amrane\Documents\SimplonAUFP3\JAVAEE\Senforage\web\WEB-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,15 +789,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602604114633</updated>
-      <workItem from="1602604119719" duration="326000" />
+      <workItem from="1602604119719" duration="3144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326000" />
+    <option name="totallyTimeSpent" value="3144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
       <window_info id="Designer" />
@@ -131,7 +810,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32923076" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -162,5 +841,118 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/village/add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/client/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/utilisateur/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Village.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#432#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sn/senforage/entities/Utilisateur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
